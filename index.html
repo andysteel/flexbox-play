@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <title>Flexbox-palyground</title>
+</head>
+<body>
+    <main>
+        <h1>Flexbox playground</h1>
+        <form action="">
+            <fieldset>
+                <label for="flex-direction">Flex direction</label>
+                <select name="flex-direction" id="flex-direction">
+                    <option value="row">row</option>
+                    <option value="column">column</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <label for="align-items">Align items</label>
+                <select name="align-items" id="align-items">
+                    <option value="flex-start">flex-start</option>
+                    <option value="flex-end">flex-end</option>
+                    <option value="center">center</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <label for="flex-wrap">Flex wrap</label>
+                <select name="flex-wrap" id="flex-wrap">
+                    <option value="nowrap">nowrap</option>
+                    <option value="wrap">wrap</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <label for="align-content">Align content</label>
+                <select name="align-content" id="align-content">
+                    <option value="flex-start">flex-start</option>
+                    <option value="flex-end">flex-end</option>
+                    <option value="center">center</option>
+                    <option value="space-around">space-around</option>
+                    <option value="space-between">space-between</option>
+                    <option value="space-evenly">space-evenly</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <label for="justify-content">Justify content</label>
+                <select name="justify-content" id="justify-content">
+                    <option value="flex-start">flex-start</option>
+                    <option value="flex-end">flex-end</option>
+                    <option value="center">center</option>
+                    <option value="space-around">space-around</option>
+                    <option value="space-between">space-between</option>
+                    <option value="space-evenly">space-evenly</option>
+                </select>
+            </fieldset>
+        </form>
+        <div class="buttons">
+            <button class="add">Add</button>
+            <button class="remove">Remove</button>
+        </div>
+        <div class="demo">
+            <div class="square">1</div>
+        </div>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
